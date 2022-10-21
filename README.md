@@ -36,6 +36,12 @@ print (m, c)
 
 Y_pred=m*X+c
 print (Y_pred)
+
+import matplotlib.pyplot as plt
+plt.scatter(X,Y,color='yellow')
+plt.plot(X,Y_pred,color='yellow')
+plt.title('xv=y')
+plt.show()
 ```
 ## OUTPUT
 ![inp](./input.jpg)
